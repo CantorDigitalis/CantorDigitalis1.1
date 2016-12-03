@@ -1,0 +1,133 @@
+
+———————————————————————————————————————————————————————————————————————————————
+Cantor Digitalis (software of digital singing voice)
+———————————————————————————————————————————————————————————————————————————————
+Copyright LIMSI-CNRS. Contributors: Christophe d'Alessandro, Boris Doval, 
+Lionel Feugère, Sylvain Le Beux, Olivier Perrotin  (2014)
+
+Christophe d'Alessandro - cda@limsi.fr
+Boris Doval - boris.doval@upmc.fr
+Lionel Feugère - lionel.feugere@gmail.com
+Sylvain Le Beux - artheist@gmail.com
+Olivier Perrotin - olivier.perrotin@limsi.fr
+
+This software, the Cantor Digitalis, is a singing synthesis computer 
+program made of a digital formant synthesizer driven by one or several 
+control interfaces. 
+It is composed of two main Max patches. The first, the synthesis engine, is based on an improved version 
+of the parallel formant synthesis design implementing the linear 
+acoustic source-filter model of speech production. 
+The "filter" or 
+"vocal tract" part of the system is computed using a parallel structure 
+made of 5 digital second-order resonators. The parameters of these 
+filters are their center frequencies, gains and bandwidths. They are 
+combined for controlling vowels, according to synthesis rules. 
+The "source" or "glottal flow derivative" part of the system is 
+computed using the Causal-Anticausal Linear Model CALM. The CALM 
+parameters are combined for controlling four vocal dimensions: voice 
+tension, breathiness, roughness, and vocal effort. Compared to a 
+classical parallel formant synthesizer, Cantor Digitalis is featuring 
+several improvements, including presets for voice categories (baritone, 
+tenor, alto, soprano), voice range profiles, source-filter dependencies 
+(formant and harmonic tuning), high F0 resolution, vocal tract size, 
+vocalic space and voice quality control.
+The second main Max patch, the tablet data processor, is used to receive 
+the data from the graphic tablet and send them to the synthesis engine.
+
+The software can be downloaded at the following URL:
+http://groupeaa.limsi.fr/cantordigitalis
+
+This software is governed by the CeCILL license under French law and
+abiding by the rules of distribution of free software.  You can  use, 
+modify and/ or redistribute the software under the terms of the CeCILL
+license as circulated by CEA, CNRS and INRIA at the following URL
+"http://www.cecill.info". 
+
+As a counterpart to the access to the source code and  rights to copy,
+modify and redistribute granted by the license, users are provided only
+with a limited warranty  and the software's author,  the holder of the
+economic rights,  and the successive licensors  have only  limited
+liability. 
+
+In this respect, the user's attention is drawn to the risks associated
+with loading,  using,  modifying and/or developing or reproducing the
+software by the user in light of its specific status of free software,
+that may mean  that it is complicated to manipulate,  and  that  also
+therefore means  that it is reserved for developers  and  experienced
+professionals having in-depth computer knowledge. Users are therefore
+encouraged to load and test the software's suitability as regards their
+requirements in conditions enabling the security of their systems and/or 
+data to be ensured and,  more generally, to use and operate it in the 
+same conditions as regards security. 
+
+The fact that you are presently reading this means that you have had
+knowledge of the CeCILL license and that you accept its terms.
+
+
+———————————————————————————————————————————————————————————————————————————————
+CantorDigitalis has been done with rtcalm~.c, a glottal source model for Max
+
+Copyright (c) 2006 University of Zagreb (eNTERFACE'06 workshop) - Boris Doval, Sylvain Le Beux.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+Users shall give appropriate references to the eNTERFACE'05 Website
+(www.enterface.net) in scholarly literature for which this software is used or mentioned.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+v.1.0 Last update 2006 - Boris Doval and Sylvain Le Beux
+v.1.1 Last update 08.2011 - Sylvain Le Beux
+v.1.2 Last update 05.2012 - Boris Doval
+
+
+———————————————————————————————————————————————————————————————————————————————
+The tablet data processor of Cantor Digitalis uses S2M.WACOM and S2M.WACOMTOUCH, Max externals & C sources for the tablet data reception)
+
+Copyright CNRS-LMA (2011-2013). Contributor: Charles Gondre
+
+This software is governed by the CeCILL license under French law and abiding by the rules of distribution of free software. You can use, modify and/ or redistribute the software under the terms of the CeCILL license as circulated by CEA, CNRS, and INRIA at the following URL:
+http://www.cecill.info/index.en.html.
+
+As a counterpart to the access to the source code and rights to copy, modify and redistribute granted by the license, users are provided only with a limited warranty and the software's author, the holder of the economic rights, and the successive licensors have only limited liability. In this respect, the user's attention is drawn to the risks associated with loading, using, modifying and/or developing or reproducing the software by the user in light of its specific status of free software, that may mean that it is complicated to manipulate, and that also therefore means that it is reserved for developers and experienced professionals having in-depth computer knowledge. Users are therefore encouraged to load and test the software's suitability as regards their requirements in conditions enabling the security of their systems and/or data to be ensured and, more generally, to use and operate it in the same conditions as regards security. The fact that you are presently reading this means that you have had knowledge of the CeCILL license and that you accept its terms. 
+
+The software was developed during the métason project (ANR-10-CORD-0003) and can be downloaded at the following URL:
+http://metason.cnrs-mrs.fr/Resultats/MaxMSP/index.html
+
+[s2m.wacom] is based on the design of the [wacom] object whose history is :
+  - Version 3. (for OSX) by Jean-Michel Couturier, CNRS-LMA, France, 2003.
+  - wacom object for os9 (version 2) by Richard Dudas. Copyright (c) 1999, the Regents of the University of California.
+    Special thanks to Atau Tanaka for suggesting this object back in the Bionic days. Thanks to CNMAT for sponsoring the version 2.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+s2m.wacom has been done with ObjectiveMax - A framework for creating Max objects using Objective-C
+
+Copyright (c) 2009, 74 Objects LLC.
+
+Redistribution and use in source and binary forms, with or without 
+modification, are permitted provided that the following conditions are met:
+
+ 1. Redistributions of source code must retain the above copyright notice, 
+    this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright notice,
+    this list of conditions and the following disclaimer in the documentation
+    and/or other materials provided with the distribution.
+ 3. Neither the name of ObjectiveMax nor the names of its contributors may be
+    used to endorse or promote products derived from this software without
+    specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF 
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, 
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR 
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF 
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+———————————————————————————————————————————————————————————————————————————————
+

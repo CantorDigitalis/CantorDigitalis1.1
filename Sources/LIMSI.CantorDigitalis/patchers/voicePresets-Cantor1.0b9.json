@@ -1,0 +1,178 @@
+{
+	"pattrstorage" : 	{
+		"name" : "voicePresets",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "Noisy Soprano",
+				"data" : 				{
+					"Tessiture" : [ 3 ],
+					"VocalTractSize" : [ 1.2 ],
+					"VocalTension" : [ 0.0 ],
+					"VocalAspiration" : [ 0.3 ],
+					"Aperiodicity" : [ 0.499 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"name" : "Soprano",
+				"data" : 				{
+					"Tessiture" : [ 3 ],
+					"VocalTractSize" : [ 1.1 ],
+					"VocalTension" : [ 0.0 ],
+					"VocalAspiration" : [ 0.1 ],
+					"Aperiodicity" : [ 0.499 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"name" : "Noisy Alto",
+				"data" : 				{
+					"Tessiture" : [ 2 ],
+					"VocalTractSize" : [ 1.06 ],
+					"VocalTension" : [ 0.0 ],
+					"VocalAspiration" : [ 0.35 ],
+					"Aperiodicity" : [ 0.499 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"name" : "Alto",
+				"data" : 				{
+					"Tessiture" : [ 2 ],
+					"VocalTractSize" : [ 1.05 ],
+					"VocalTension" : [ 0.0 ],
+					"VocalAspiration" : [ 0.1 ],
+					"Aperiodicity" : [ 0.499 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"name" : "Tenor",
+				"data" : 				{
+					"Tessiture" : [ 2 ],
+					"VocalTractSize" : [ 0.99 ],
+					"VocalTension" : [ 0.0 ],
+					"VocalAspiration" : [ 0.15 ],
+					"Aperiodicity" : [ 0.499 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"name" : "Basse",
+				"data" : 				{
+					"Tessiture" : [ 1 ],
+					"VocalTractSize" : [ 0.86 ],
+					"VocalTension" : [ 0.0 ],
+					"VocalAspiration" : [ 0.2 ],
+					"Aperiodicity" : [ 0.499 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"name" : "Extreme 1",
+				"data" : 				{
+					"Tessiture" : [ 4 ],
+					"VocalTractSize" : [ 1.0 ],
+					"VocalTension" : [ 0.7 ],
+					"VocalAspiration" : [ 0.7 ],
+					"Aperiodicity" : [ 0.44 ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"name" : "Extreme 2",
+				"data" : 				{
+					"Tessiture" : [ 1 ],
+					"VocalTractSize" : [ 0.5 ],
+					"VocalTension" : [ 0.0 ],
+					"VocalAspiration" : [ 2.0 ],
+					"Aperiodicity" : [ 0.0 ]
+				}
+
+			}
+,
+			"9" : 			{
+				"id" : 9,
+				"name" : "Extreme 3",
+				"data" : 				{
+					"Tessiture" : [ 0 ],
+					"VocalTractSize" : [ 0.5 ],
+					"VocalTension" : [ 1.4 ],
+					"VocalAspiration" : [ 2.0 ],
+					"Aperiodicity" : [ 0.1 ]
+				}
+
+			}
+,
+			"10" : 			{
+				"id" : 10,
+				"name" : "Child 1",
+				"data" : 				{
+					"Tessiture" : [ 3 ],
+					"VocalTractSize" : [ 1.25 ],
+					"VocalTension" : [ 0.0 ],
+					"VocalAspiration" : [ 0.01 ],
+					"Aperiodicity" : [ 0.499 ]
+				}
+
+			}
+,
+			"11" : 			{
+				"id" : 11,
+				"name" : "Child 2",
+				"data" : 				{
+					"Tessiture" : [ 4 ],
+					"VocalTractSize" : [ 1.5 ],
+					"VocalTension" : [ 0.0 ],
+					"VocalAspiration" : [ 0.01 ],
+					"Aperiodicity" : [ 0.499 ]
+				}
+
+			}
+,
+			"12" : 			{
+				"id" : 12,
+				"name" : "Baby",
+				"data" : 				{
+					"Tessiture" : [ 4 ],
+					"VocalTractSize" : [ 2.0 ],
+					"VocalTension" : [ 0.0 ],
+					"VocalAspiration" : [ 0.01 ],
+					"Aperiodicity" : [ 0.499 ]
+				}
+
+			}
+,
+			"13" : 			{
+				"id" : 13,
+				"name" : "Woman Bulgarian Style",
+				"data" : 				{
+					"Tessiture" : [ 2 ],
+					"VocalTractSize" : [ 1.4 ],
+					"VocalTension" : [ 0.75 ],
+					"VocalAspiration" : [ 0.0 ],
+					"Aperiodicity" : [ 0.499 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
